@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+/* Global Classes */
+body {
+  font-family: 'Muli', sans-serif;
+}
+.main-content {
+  padding: 0;
+}
+.row {
+  margin: 50px 0;
+  padding: 50px 0;
+}
+/* Navigation */
+.navbar {
+  background-color: #b31b1b;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-nav li {
+  margin: 0 20px;
+}
+.navbar .navbar-nav li.center a {
+  font-size: 50px;
+}
+.navbar .navbar-nav li.center a:hover {
+  background-color: inherit;
+  color: white;
+  cursor: default;
+}
+.navbar .navbar-nav li a {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li.active a, .navbar .navbar-nav li.active a:hover {
+  background-color: #D33939;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Home Page Styles */
+.btn-cta {
+  background-color: #b31b1b;
+  border-color: #D33939;
+}
+.home-img {
+  height: 100%;
+  width: 100%;
+}
+.front-desc {
+  font-size: 20px;
+}
+
+/* Discover */
+.main-content iframe {
+  height: 400px;
+  width: 100%;
+}
